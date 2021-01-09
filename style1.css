@@ -1,0 +1,49 @@
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-family:monospace;
+	
+}
+
+table{
+  width: 1350;
+  height: 650;
+  color: #000000; 
+  font-size: 15pt;
+  background-color: #FFFFFF; 
+  border: 2px hidden;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+}
+
+label {
+        font-size: 20px;
+        right: 50px;
+}
+
+em {
+    font-weight: bold;
+}
+
+select {
+        width: 230px;
+        height: 25px;
+}
+
+body{
+     background: linear-gradient(to right, #9999ff -4%, #deb887 111%);
+}
+
+div{
+    font-size: 18px;
+    color: #1C1C1F;
+}
+td, th {
+   border:solid black hidden;
+   padding-top: 1.5em;
+   padding-left:1.5em;
+
+   
+}

@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Form Page 1</title>
+	<link rel = "stylesheet" type="text/css" href="style1.css"/>
+</head>
+<body>
+	<h1>Registration</h1>
+	<form  action="form2.php" method="post" enctype="multipart/form-data">
+        <table align = "center" cellpadding = "10">
+		
+		<tr><td width="20%"><label>Name :</td><td width="30%"><input type="text" name="name" ></label></td>
+		<td rowspan="4" align="center"><em>Please put your face here: <br><br><input type="file" id="personalImage" name="personalImage"></em></td></tr>
+
+		
+		<tr><td><label>IC / Passport No. :</td><td><input type="text" name="ic"></label></td></tr>
+	
+	
+		<tr><td><label>Gender :</td><td><input type="radio" name="gender" value="Male">Male 
+						 <input type="radio" name="gender" value="Female">Female</label></td></tr>
+	
+						 
+		<tr><td><label>Nationality :</td><td> <input type="radio" name="nationality" value="Local" checked="checked">Local 
+								<input type="radio" name="nationality" value="International">International</label></td></tr>
+								
+						 
+		<tr><td><label>Date of Birth : </td><td><input style="width:45%" type="date" name="birth"></label></td></tr>
+		
+
+		<tr><td><label>Tel : </td><td><input type="tel" placeholder="(###) ###-####"  name="phone"> (###) ###-####</label></td></tr>
+
+				
+		<tr><td><label>Email : </td><td><input type="email" name="email"></label></td></tr>
+
+		
+		<tr><td><label>Address   :</td><td><br><input type="text" placeholder="Street Address" name="address1"><br>
+		<input type="text" placeholder="Street Address 2" name="address2"></td></tr>
+		<tr><td><label>City : </td><td><input type="text" name="city"></label></td></tr>
+		<tr><td><label>State :</td><td> <input list="states" name="state"></label>
+								<datalist id="states">
+									<option value="Johor">
+									<option value="Kedah">
+									<option value="Kelantan">
+									<option value="Kuala Lumpur">
+									<option value="Melaka">
+									<option value="Negeri Sembilan">
+                                    <option value="Pahang">
+									<option value="Perak">
+									<option value="Perlis">
+									<option value="Pulau Pinang">
+									<option value="Sabah">	
+									<option value="Sarawak">
+									<option value="Selangor">
+									<option value="Terengganu">
+								</datalist></td></tr>					
+		<tr><td><label>Postal Code :</td><td> <input type="text" name="zip" maxlength="5" placeholder="Postal / Zip Code"></label></td></tr>
+
+			<br><tr><td colspan="3" align="center"><input name="insert" id="insert" type="submit" value = "Next Page" style="width:10%; height:30px; color:red; background-color:#F8DD88;"></td></tr>
+        </table>
+	</form>
+
+</body>
+</html>

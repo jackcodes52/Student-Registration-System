@@ -1,0 +1,38 @@
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+}
+
+table{
+  width: 1350;
+  height: 650;
+  color: #000000; 
+  font-size: 15pt;
+  background-color: #FFFFFF; 
+  border: 2px hidden;
+}
+
+label {
+        font-size: 20px;
+        right: 50px;
+}
+
+body{
+     background: linear-gradient(to right, #9999ff -4%, #deb887 111%);
+}
+
+.adtitle{
+         color: black;
+         font-size: 50px;
+}
